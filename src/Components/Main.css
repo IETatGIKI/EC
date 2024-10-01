@@ -1,0 +1,312 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+h1{
+    
+    overflow-y: hidden;
+}
+h5{
+    
+    overflow-y: hidden;
+}
+p
+{
+    overflow-y: hidden;
+}
+.col-md-8{
+    overflow-y: hidden;
+}
+.main_border {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate :-50% -50%;
+    border-radius: 10px;
+    background:radial-gradient(#00083d,#0002106d);
+    overflow-y: hidden;
+    
+}
+.a-1{
+    position: relative;
+    height: 300px;
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-radius: 50%;
+    
+}
+.a0{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/image_2024-09-30_014359390-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border-radius: 50%;
+    
+    overflow-y: hidden;
+    
+}
+.a1{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/hussainvirk-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a2{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/image_2024-09-30_211216550-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 100%;
+
+}
+.a3{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/murtaza.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a4{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/arbabaslam.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a5{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/umer.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a6{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/zafir.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a7{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/komaljaved-removebg-preview.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.a8{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/kamilayub.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.a9{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/talha.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    top: 50px;
+}
+.a10{
+    position: relative;
+    height: 300px;
+    background-image: url('../assets/eman.png');
+    background-position: center;
+    background-size: contain;
+    filter: drop-shadow(10px 10px 10px rgba(27, 2, 30, 0.725));
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    top: 50px;
+}
+.h1-one{
+    position: relative;
+    animation: h-one;
+    animation-duration: 2s;
+    overflow-y: hidden;
+}
+.even{
+    animation: ecanimate;
+    animation-duration: 2s;
+}
+.odd{
+    animation: revecanimate;
+    animation-duration: 2s;
+}
+.h5-one{
+    position: relative;
+    animation-name: h-f-one;
+    animation-duration: 6s;
+    overflow-y: hidden;
+}
+.p-one{
+    position: relative;
+    animation: p-one;
+    animation-duration: 2s;
+    overflow-y: hidden;
+}
+@keyframes h-one {
+    0%{
+        top:-500px;
+        opacity: 0;
+    }
+    100%{
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes h-f-one {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes p-one {
+    0%{
+        bottom:-500px;
+        opacity: 0;
+    }
+    100%{
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+@keyframes ecanimate {
+    0%{
+        left:500px;
+        opacity: 0;
+        animation-delay: 10s;
+    }
+    100%{
+        left: 0px;
+        opacity: 1;
+    }
+}
+@keyframes revecanimate {
+    0%{
+        right:500px;
+        opacity: 0;
+        animation-delay: 10s;
+    }
+    100%{
+        right: 0px;
+        opacity: 1;
+    }
+}
+.crd{
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    margin-bottom: 20px;
+    text-decoration-thickness: 4px;
+}
+h5{
+    font-size: 40px;
+    font-weight: 700;
+}
+h3{
+    
+    overflow-y: hidden;
+    font-size: 40px;
+    font-weight: 700;
+}
+.buttonleft{
+    border: none;
+    border-radius: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:radial-gradient(#00083d,#000210ab);
+    color: white;
+}
+.buttonright{
+    border: none;
+    border-radius: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:radial-gradient(#00083d,#000210ab);
+    color: white;
+}
+@media screen and (max-width:1000px){
+    h1{
+        font-size: 45px;
+        font-weight: 700;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-style: 2px solid;
+    }
+    h5{
+        font-size: 40px;
+        font-weight: 700;
+        overflow: hidden;
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        overflow-y: hidden;
+        font-size: 40px;
+        font-weight: 700;
+    }
+}

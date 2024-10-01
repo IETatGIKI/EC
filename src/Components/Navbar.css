@@ -1,0 +1,23 @@
+.navbar1{
+    background:radial-gradient(#00083d69,#0002104f);
+    height: 70px;
+    
+}
+.containers {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    place-content: center;
+    overflow: hidden;
+    background: transparent;
+  }
+  
+  .item {
+    width: 56%;
+    overflow: visible;
+    color: purple;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
